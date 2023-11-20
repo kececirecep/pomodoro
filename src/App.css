@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.progressBar {
+    width:60%;
+    height: 20px;
+    background-color: #ccc; 
+  }
+  
+  .filler {
+    height: 100%;
+    width: 0%;
+    background-color: #007bff; /* Dolum rengini burada ayarlayabilirsiniz */
+    transition: width 1s ease; /* Dolumun hızını ve animasyonunu burada ayarlayabilirsiniz */
+  }
+  
+
+
+  /* Genel Scrollbar */
+::-webkit-scrollbar {
+    width: 5px; /* Genişlik */
+  }
+  
+  /* Scrollbar yatay durumu (isteğe bağlı) */
+  ::-webkit-scrollbar-thumb:horizontal {
+    background-color: #007bff; /* Dolgu rengi */
+    border-radius: 6px; /* Köşe yarıçapı */
+  }
+  
+  /* Scrollbar dikey durumu */
+  ::-webkit-scrollbar-thumb {
+    background-color: #007bff; /* Dolgu rengi */
+    border-radius: 6px; /* Köşe yarıçapı */
+  }
+  
+  /* Scrollbar arka plan (isteğe bağlı) */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Arkaplan rengi */
+  }
+  
